@@ -1,0 +1,33 @@
+name: fejtaverse
+description: very-fancy
+default_repository_permission: read
+has_organization_projects: true
+has_repository_projects: true
+members_can_create_repositories: false
+admins:
+- cblecker
+- fejta
+- k8s-ci-robot
+members:
+- cjwagner
+- fejta-bot
+- krzyzacy
+teams:
+  bots:
+    description: Beep Boop
+    maintainers:
+    - k8s-ci-robot
+    members:
+    - fejta-bot
+    privacy: closed
+    teams:
+      robots:
+        description: Boop Beep
+        members:
+        - fejta-bot
+        privacy: closed
+  humans:
+    description: H. sapiens
+    maintainers:
+    - fejta
+    privacy: closed
